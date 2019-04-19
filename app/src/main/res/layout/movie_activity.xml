@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:background="#009688"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:text="Title"
+            android:textColor="#ffffff"
+            android:textSize="37sp"
+            android:id="@+id/tv_title_movie"/>
+
+
+        <LinearLayout
+            android:paddingLeft="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/im_poster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingTop="5dp"
+                android:src="@drawable/yeee" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="25dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_year_movie"
+                    android:text="Year"
+                    android:textSize="15sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_length_movie"
+                    android:text="Length of movie"
+                    android:textSize="12dp"
+                    android:fontFamily="serif"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_rate_movie"
+                    android:text="rating"
+                    android:textSize="10dp"
+                    android:paddingTop="5dp"
+                    />
+
+                <Button
+                    android:id="@+id/button_favorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mark as
+favorite"
+                    android:textSize="9dp"
+                    android:backgroundTint="#08d4c1"/>
+
+                <Button
+                    android:id="@+id/button_reviews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="9dp"
+                    android:backgroundTint="#08d4c1"
+                    android:text="Read Reviews"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp">
+
+            <TextView
+                android:id="@+id/tv_description_movie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="345dp"
+                android:layout_height="6dp"
+                android:background="@drawable/borderline"
+                android:gravity="center" />
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="Trailers:"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rv_trailers"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

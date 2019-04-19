@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movie DB</string>
+    <string name="menu_action_popular">Most Popular</string>
+    <string name="menu_action_rated">Top Rated</string>
+    <string name="menu_choosen_tv">Default</string>
+    <string name="menu_action_favorites">Favorites</string>
+</resources>
