@@ -2,7 +2,7 @@
 ----
 
 ## Desciption
-This app utilizes the API database from themoviedb website and allows users to browse through the current most popular movies and the top rated movies. Users can select a movie to read it's desciption or watch the trailer videos provided. Movies can also be marked as favorites which is store in the favorites menu.
+This app utilizes the themovieDB's website API and allows users to browse through the current most popular movies and the top rated movies. Users can select a movie to read it's desciption or watch the trailer videos provided. Movies can also be marked as favorites which is store in the favorites menu.
 
 ----
 ## User Interface
